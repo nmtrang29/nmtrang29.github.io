@@ -1,0 +1,55 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (https://startbootstrap.com/tremplate-overviews/1-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 60px;
+  font-family: 'Helvetica', san-serif;
+}
+
+body {
+	padding-top: 0;
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: 400;
+	padding-top: .3rem;
+	padding-bottom: 2rem;
+}
+
+h6 {
+	color: #aaa;
+	margin-top: 2rem;
+	font-size: 1rem;
+}
+
+hr {
+	margin-left: 15px;
+	margin-top: 2rem;
+}
+
+a {
+	color: initial;
+	text-decoration: underline;
+} 
+
+ul {
+	list-style-type: circle;
+}
+
+ul i {
+	color: #aaa;
+}
+
+
+.img-cover {
+	margin-top: 8rem;
+}
+
+.img-inline{
+	width: 300px;
+}
