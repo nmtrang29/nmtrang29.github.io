@@ -3,11 +3,23 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
  */
+@font-face {
+    font-family: 'terminal_grotesque';
+    src: url('terminal-grotesque-webfont.eot');
+    src: url('terminal-grotesque-webfont.eot?#iefix') format('embedded-opentype'),
+         url('terminal-grotesque-webfont.woff2') format('woff2'),
+         url('terminal-grotesque-webfont.woff') format('woff'),
+         url('terminal-grotesque-webfont.ttf') format('truetype'),
+         url('terminal-grotesque-webfont.svg#terminal_grotesqueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
 	font-size: 18px;
   padding-bottom: 12rem;
-  font-family: 'Helvetica', san-serif;
+  font-family:"terminal_grotesque", arial;
 }
 
 
