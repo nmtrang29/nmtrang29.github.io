@@ -29,10 +29,81 @@
         </div>
       </div>
 
-      <!-- Shadertoy -->
+      <!-- Rachel -->
       <div class="column">
         <div class="col-lg-8 col-md-10 col-sm-12">
+          <h6>21st Aug 2018</h6>
+          <h3>Cracked Mirror</h3>
+
+          <p>Using rocks to destroy your webcam, the amount of rocks equal to the amount of damage/cracks. Then bring it back to life by throwing in some tapes. </p>
+
+          <br><br><br>
+          <video src="assets/videos/rachel.mp4" controls style="max-width:100%; height:auto">
+          </video>
+          
+          <p></p><br><br><br>
+          <p>How it works:<p>
+          <ul>
+            <li>
+                Use <a href="https://ml4a.github.io/guides/DoodleClassifier/">DoodleClassifier</a>, an openFramworks application, to train a classifer to regconise rocks and tapes from the camera.</li>
+            <li>
+              After training, the application will send an OSC message for each predicted class as a string to Processing ("rock" and "tape").
+            </li>
+            <li>
+              Based on the amount of received OSC messages, Processing will then calculate how many rocks and tapes are on the tables in order to output "health" data of your webcam.
+            </li>
+          </ul>
+          <br>
+
+          <p>Calculation examples:</p>
+          <p>
+          1 rock = -10 health<br>
+          1 tape = +10 health<br>
+          3 rocks + 1 tape = -20 health
+          </p>
+
+          <br><br><br>
+          <img src="assets/shaders/lsdsheet.png"style="max-width:100%;">
+          </img>
+          <small>Physical Setup: A camera looking over lorum ipsum</small>
+
         </div>
+      </div>
+
+      <!-- Rachel -->
+      <div class="column">
+        <div class="col-lg-8 col-md-10 col-sm-12">
+          <h6>20th Aug 2018</h6>
+          <h3>Virtual Rachel</h3>
+
+          <p>Description</p>
+  
+          <br><br><br>
+          <video src="assets/videos/rachel.mp4" controls style="max-width:100%; height:auto">
+          </video>
+
+        </div>
+      </div>
+
+      <!-- Audio t-SNE -->
+      <div class="column">
+        <div class="col-lg-8 col-md-10 col-sm-12">
+          <h6>20th Aug 2018</h6>
+          <h3>Audio t-SNE</h3>
+
+          <p>Placing similar-sounding audio recordings near each other using <a href="https://lvdmaaten.github.io/tsne/">t-SNE dimensionality reduction technique</a></p>
+
+          <p>Dataset: <a href="https://github.com/karoldvl/ESC-50">ESC-50</a>, a collection of 2000 environmetal audio recordings.</p>
+  
+          <br><br><br>
+          <video src="assets/videos/audiotsne.mp4" controls style="max-width:100%; height:auto">
+          </video>
+
+        </div>
+      </div>
+
+      <!-- Shadertoy -->
+      <div class="column">
         <div class="col-lg-8 col-md-10 col-sm-12">
           <h6>19 Aug 2018</h6>
           <h3>Shader Weekend</h3>
