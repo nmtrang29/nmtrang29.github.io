@@ -12,7 +12,7 @@
 
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/1-col-portfolio.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&amp;subset=vietnamese" rel="stylesheet">
 
   </head>
@@ -20,12 +20,54 @@
   <body>
 
     <div class="container">
-
       <!-- Trang -->
       <div class="column trang">
         <div class="col-lg-4 col-md-6 col-sm-8">
           <img src="assets/trang.jpg"style="max-width:100%; height:auto">
           </img>
+        </div>
+      </div>
+
+      <!-- Makeup Review Generator -->
+      <div class="column">
+        <div class="col-lg-8 col-md-10 col-sm-12">
+          <h6>25th Aug 2018</h6>
+          <h3>Makeup Review Generator</h3>
+
+          <p>Using char-rnn to generate fake makeup reviews for products I bought on <a href="https://yesstyle.com">Yestyle</a> (Asia's equivalent of Sephora/Douglas). By submitting a certain amount of reviews, I get discount on all purchases $$$.</p>
+      
+          <br><br><br>
+
+          <img src="assets/explain1.jpg"style="max-width:100%; height:auto">
+          </img>
+          <small>Submit reviews > upgrade membership > discount! LOL</small>
+
+          <p></p><br><br><br>
+          <p>Some of the outputs:</p>
+
+          <img src="assets/explain1.jpg"style="max-width:100%; height:auto">
+          </img>
+
+          <p></p><br><br><br>
+          <p>It took them a day to check my reviews but they went through in the end!</p>
+          <br><br><br>
+
+          <img src="assets/explain1.jpg"style="max-width:100%; height:auto">
+          </img>
+          <small>Got rewarded with my fake reviews</small>
+
+          <p></p><br><br><br>
+
+          
+
+          <img src="assets/explain1.jpg"style="max-width:100%; height:auto">
+          </img>
+          <small>My review on Yestyle</small>
+
+          <p></p><br><br><br>
+
+          <p>Takeaway: Half an hour spent on finding and cleaning up the dataset, 22 hours spent on training while I can easily write these reviews in 20 minutes.<br>Human 1 – Machine 0.
+
         </div>
       </div>
 
@@ -50,22 +92,22 @@
               After training, the application will send an OSC message for each predicted class as a string to Processing ("rock" and "tape").
             </li>
             <li>
-              Based on the amount of received OSC messages, Processing will then calculate how many rocks and tapes are on the tables in order to output "health" data of your webcam.
+              Based on the amount of received OSC messages, Processing will then calculate how many rocks and tapes are on the tables in order to output your webcam's damage status
             </li>
           </ul>
           <br>
 
-          <p>Calculation examples:</p>
+          <p>How damage status is calculated? </p>
           <p>
-          1 rock = -10 health<br>
-          1 tape = +10 health<br>
-          3 rocks + 1 tape = -20 health
+          1 tape = +10 health (no crack)<br> 
+          1 rock = -10 health (tiny crack)<br> 
+          6 rocks + 2 tape = -40 health (large crack)
           </p>
 
           <br><br><br>
           <img src="assets/shaders/lsdsheet.png"style="max-width:100%;">
           </img>
-          <small>Physical Setup: A camera looking over lorum ipsum</small>
+          <small>Physical setup<small>
 
         </div>
       </div>
@@ -76,11 +118,16 @@
           <h6>20th Aug 2018</h6>
           <h3>Virtual Rachel</h3>
 
-          <p>Description</p>
+          <p>Using <a href="https://github.com/genekogan/pix2pix-tensorflow">pix2pix</a> to control Rachel's face (one of my favourite humans!). Running real-time on a webcam. Input on the left, output on the right.</p>
   
           <br><br><br>
           <video src="assets/videos/rachel.mp4" controls style="max-width:100%; height:auto">
           </video>
+
+          <p></p><br><br><br><br>
+          <img src="assets/shaders/cccv.png"style="max-width:100%; height:auto">
+          </img>
+          <small>Training dataset contains 400 of these.</small>
 
         </div>
       </div>

@@ -76,3 +76,11 @@ ul i, .grey, small {
 .img-inline{
 	width: 300px;
 }
+
+@media (max-width: 991.98px) {
+	.column {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+}
