@@ -71,6 +71,29 @@
         </div>
       </div>
 
+      <!-- People with my name-->
+      <div class="column">
+        <div class="col-lg-8 col-md-10 col-sm-12">
+          <h6>23rd Aug 2018</h6>
+          <h3>People With My Name</h3>
+
+          <p>I have a generic Vietnamese name so I wonder if any of my photos would pop up in Google Image search. Within the first 500 results, nope! Using image-tSNE, these results were clustered based on their similarity in content.</p>
+
+          <p>Hats off to Aaron for creating tools to scrape images from Google Image and Bing</p>
+      
+          <br><br><br>
+          <img src="assets/myname-2.png"style="max-width:100%;">
+          </img>
+          <img src="assets/myname-1.png"style="max-width:100%;">
+          </img>         
+
+          <p></p><br><br><br>
+          <video src="assets/videos/myname.mp4" controls style="max-width:100%; height:auto">
+          </video>
+
+        </div>
+      </div>
+
       <!-- Rachel -->
       <div class="column">
         <div class="col-lg-8 col-md-10 col-sm-12">
@@ -80,7 +103,7 @@
           <p>Using rocks to destroy your webcam, the amount of rocks equal to the amount of damage/cracks. Then bring it back to life by throwing in some tapes. </p>
 
           <br><br><br>
-          <video src="assets/videos/rachel.mp4" controls style="max-width:100%; height:auto">
+          <video src="assets/videos/crack-trang.mp4" controls style="max-width:100%; height:auto">
           </video>
           
           <p></p><br><br><br>
@@ -95,19 +118,28 @@
               Based on the amount of received OSC messages, Processing will then calculate how many rocks and tapes are on the tables in order to output your webcam's damage status
             </li>
           </ul>
-          <br>
-
-          <p>How damage status is calculated? </p>
-          <p>
-          1 tape = +10 health (no crack)<br> 
-          1 rock = -10 health (tiny crack)<br> 
-          6 rocks + 2 tape = -40 health (large crack)
-          </p>
-
-          <br><br><br>
-          <img src="assets/shaders/lsdsheet.png"style="max-width:100%;">
+          <br><br><br><br>
+          <img src="assets/setup.jpg"style="max-width:100%;">
           </img>
-          <small>Physical setup<small>
+          <small>Physical setup: Camera looking over a canvas</small>
+
+          <p></p><br><br><br>
+          <img src="assets/crack-train.gif"style="max-width:100%;">
+          </img>
+          <small>Train classifier to recognise rocks and tapes on the canvas</small>
+          
+          <p></p><br><br><br>
+          <p>How damage status is calculated? </p>
+          <ul>
+            <li>1 tape = +10 health (no crack)</li> 
+            <li>1 rock = -10 health (tiny crack)</li> 
+            <li>6 rocks + 2 tape = -40 health (severe crack)</li>
+          </ul>
+
+          <p></p><br><br><br><br>
+          <img src="assets/crack-run.gif"style="max-width:100%;">
+          </img>
+          <small>Aaand make it crack!</small>
 
         </div>
       </div>
