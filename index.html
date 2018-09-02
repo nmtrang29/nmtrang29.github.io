@@ -25,18 +25,18 @@
         <div class="col-lg-12 col-md-12 col-sm-12">
           <!-- <img src="assets/trang.jpg"style="max-width:100%; height:auto">
           </img> -->
-          <h3>Trang Minh Nguyen</h3>
-          <h6>Experiments. Side projects. Happy accidents.</h6>
+          <p>Trang Minh Nguyen</p>
+          <h6>Experiments & happy accidents.</h6>
         </div>
       </div>
 
-      <!-- Makeup Review Generator -->
+      <!-- Björk -->
       <div class="column">
         <div class="col-lg-8 col-md-10 col-sm-12">
-          <h6>25th Aug 2018</h6>
-          <h3>Makeup Review Generator</h3>
+          <h6>30 Aug 2018</h6>
+          <h3>(Not) everyone can be Björk</h3>
 
-          <p>Using char-rnn to generate fake makeup reviews for products I bought on <a href="https://yesstyle.com">Yestyle</a> (Asia's equivalent of Sephora/Douglas). By submitting a certain amount of reviews, I get discount on all purchases $$$.</p>
+          <p>Using char-rnn to generate fake product reviews on <a href="https://yesstyle.com">Yestyle</a> (Asia's equivalent of Sephora/Douglas). Lazy customers can now benefit from their review rewarding system — the more reviews you submit, the more discount you get.</p>
       
           <br><br><br>
 
@@ -44,31 +44,58 @@
           </img>
           <small>Submit reviews > upgrade membership > discount! LOL</small>
 
-          <p></p><br><br><br>
-          <p>Some of the outputs:</p>
 
-          <img src="assets/explain1.jpg"style="max-width:100%; height:auto">
+          <p></p><br><br><br>
+          <p>After submitting, these reviews were manually checked by Yesstyle and they all went through!</p>
+          <br><br><br>
+
+          <img src="assets/review-reward.png"style="max-width:100%; height:auto">
           </img>
+          <small>Got rewarded!</small>
 
           <p></p><br><br><br>
-          <p>It took them a day to check my reviews but they went through in the end!</p>
+
+          <img src="assets/review-online1.jpg"style="max-width:100%; height:auto">
+          </img>
+          <small>Two of my fake reviews on Yestyle website with pretty broken English</small>
+
+          <p></p><br><br><br>
+          <button><a href="lstm/index.html">Launch experiment</a></button>
+
+        </div>
+      </div>
+
+      <!-- Makeup Review Generator -->
+      <div class="column">
+        <div class="col-lg-8 col-md-10 col-sm-12">
+          <h6>25th Aug 2018</h6>
+          <h3>Beauty Product Review Generator</h3>
+
+          <p>Using char-rnn to generate fake product reviews on <a href="https://yesstyle.com">Yestyle</a> (Asia's equivalent of Sephora/Douglas). Lazy customers can now benefit from their review rewarding system — the more reviews you submit, the more discount you get.</p>
+      
           <br><br><br>
 
           <img src="assets/explain1.jpg"style="max-width:100%; height:auto">
           </img>
-          <small>Got rewarded with my fake reviews</small>
+          <small>Submit reviews > upgrade membership > discount! LOL</small>
+
 
           <p></p><br><br><br>
+          <p>After submitting, these reviews were manually checked by Yesstyle and they all went through!</p>
+          <br><br><br>
 
-          
-
-          <img src="assets/explain1.jpg"style="max-width:100%; height:auto">
+          <img src="assets/review-reward.png"style="max-width:100%; height:auto">
           </img>
-          <small>My review on Yestyle</small>
+          <small>Got rewarded!</small>
 
           <p></p><br><br><br>
 
-          <p>Takeaway: Half an hour spent on finding and cleaning up the dataset, 22 hours spent on training while I can easily write these reviews in 20 minutes.<br>Human 1 – Machine 0.
+          <img src="assets/review-online1.jpg"style="max-width:100%; height:auto">
+          </img>
+          <small>Two of my fake reviews on Yestyle website with pretty broken English</small>
+
+          <p></p><br><br><br>
+          <button><a href="lstm/index.html">Launch experiment</a></button>
 
         </div>
       </div>
@@ -79,19 +106,17 @@
           <h6>23rd Aug 2018</h6>
           <h3>People With My Name</h3>
 
-          <p>I have a generic Vietnamese name so I wonder if any of my photos would pop up in Google Image search. Within the first 500 results, nope! Using image-tSNE, these results were clustered based on their similarity in content.</p>
+          <p>Google searched my name. Scraped and cropped faces out of the first 500 results. Images clustered via <a href="https://lvdmaaten.github.io/tsne/">t-SNE dimensionality reduction technique</a>. I should probably mention that I have a very common Vietnamese name.</p>
 
-          <p>Hats off to Aaron for creating tools to scrape images from Google Image and Bing</p>
+          <p>Made possible with <a href="https://github.com/montoyamoraga">Aarón Montoya-moraga</a>'s tool for scrapping Google Images and <a href="https://andreasrefsgaard.dk/">Andreas Refgaard</a>'s face-croppping Processing sketch.</p>
       
           <br><br><br>
-          <img src="assets/myname-2.png"style="max-width:100%;">
-          </img>
-          <img src="assets/myname-1.png"style="max-width:100%;">
-          </img>         
+          <img src="assets/myname-3.jpg"style="max-width:100%;">
+          </img>   
 
           <p></p><br><br><br>
-          <video src="assets/videos/myname.mp4" controls style="max-width:100%; height:auto">
-          </video>
+          <img src="assets/myname-3-smallcrop.jpg"style="max-width:100%;">
+          </img>   
 
         </div>
       </div>

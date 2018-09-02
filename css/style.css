@@ -36,14 +36,15 @@ body, p {
 	border: 1px solid black;
 }
 
-.column.trang h6 {
-	margin-top: 0;
+.column.trang h6, .column.trang p {
+	margin: 0;
+	margin-top: .5rem;
 	-webkit-margin-after: 0em;
 }
 
-.column.trang h3 {
-	margin-top: .5rem;
-	padding-bottom: .5rem;
+img {
+	vertical-align: left;
+	margin-bottom: .4rem;
 }
 
 small {
@@ -83,6 +84,21 @@ ul i, .grey, small {
 	color: #aaa;
 }
 
+button{
+	background: black;
+	border: 1px solid black;
+	padding: .5rem 1rem .6rem 1rem;
+}
+
+button a {
+	text-decoration: none;
+	color: white;
+}
+
+
+button:hover a{
+	color: white;
+}
 
 .img-inline{
 	width: 300px;
