@@ -80,7 +80,7 @@ ul {
 	list-style-type: circle;
 }
 
-ul i, .grey, small {
+ul i, .grey, small, small a {
 	color: #aaa;
 }
 
